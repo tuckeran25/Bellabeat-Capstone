@@ -194,4 +194,11 @@ daily_sleep %>%
  Max.   :961.0   Max.   :3.00      Max.   :796.0
 ```
 On average, users are sleeping for around seven hours a night and spening just over seven and a half hours in bed. There is a strong corrilation between minutes in bed and minutes asleep:
-![](sleep_graph.png)
+<!--
+Source - https://stackoverflow.com/a/26138535
+Posted by alciregi, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-13, License - CC BY-SA 4.0
+-->
+
+<img src="sleep_graph.png" width="48">
+
