@@ -200,5 +200,5 @@ Posted by alciregi, modified by community. See post 'Timeline' for change histor
 Retrieved 2025-11-13, License - CC BY-SA 4.0
 -->
 
-<img src="sleep_graph.png" width="100">
+<img src="sleep_graph.png" width="300">
 
