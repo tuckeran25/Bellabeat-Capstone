@@ -176,7 +176,7 @@ combined_data <- combined_data %>%
 combined_data$Weekday <- factor( combined_data$Weekday, levels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
 ```
 
-### Step 5: Analysis
+### Step 5: Summary of data
 
 5.1 Data summary:
 ```R
@@ -194,11 +194,31 @@ daily_sleep %>%
  Max.   :961.0   Max.   :3.00      Max.   :796.0
 ```
 On average, users are sleeping for around seven hours a night and spening just over seven and a half hours in bed. There is a strong corrilation between minutes in bed and minutes asleep:
-<!--
-Source - https://stackoverflow.com/a/26138535
-Posted by alciregi, modified by community. See post 'Timeline' for change history
-Retrieved 2025-11-13, License - CC BY-SA 4.0
--->
-
 <img src="sleep_graph.png" width="450">
+```R
+daily_activity %>% 
+   select(TotalSteps,
+          SedentaryMinutes,
+          LightlyActiveMinutes,
+          FairlyActiveMinutes,
+          VeryActiveMinutes,
+          Calories) %>% 
+   summary()
+   TotalSteps    SedentaryMinutes LightlyActiveMinutes
+ Min.   :    4   Min.   :   0.0   Min.   :  0.0       
+ 1st Qu.: 4923   1st Qu.: 721.5   1st Qu.:146.5       
+ Median : 8053   Median :1021.0   Median :208.0       
+ Mean   : 8319   Mean   : 955.8   Mean   :210.0       
+ 3rd Qu.:11092   3rd Qu.:1189.0   3rd Qu.:272.0       
+ Max.   :36019   Max.   :1440.0   Max.   :518.0       
+ FairlyActiveMinutes VeryActiveMinutes    Calories   
+ Min.   :  0.00      Min.   :  0.00    Min.   :  52  
+ 1st Qu.:  0.00      1st Qu.:  0.00    1st Qu.:1856  
+ Median :  8.00      Median :  7.00    Median :2220  
+ Mean   : 14.78      Mean   : 23.02    Mean   :2361  
+ 3rd Qu.: 21.00      3rd Qu.: 35.00    3rd Qu.:2832  
+ Max.   :143.00      Max.   :210.00    Max.   :4900  
+```
+
+
 
