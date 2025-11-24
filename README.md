@@ -197,6 +197,7 @@ On average, users are sleeping for around seven hours a night and spening just o
 
 
 <img src="sleep_graph.png" width="450">
+
 ```R
 daily_activity %>% 
    select(TotalSteps,
