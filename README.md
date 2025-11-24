@@ -219,6 +219,7 @@ daily_activity %>%
  3rd Qu.: 21.00      3rd Qu.: 35.00    3rd Qu.:2832  
  Max.   :143.00      Max.   :210.00    Max.   :4900  
 ```
-
+Users are speding a majority of their day in a sedentary state and a very small amount of their days in a fairly active or very active state:
+<img src="activity_chart.png" width="450">
 
 
