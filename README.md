@@ -230,3 +230,7 @@ Users are speding a majority of their day in a sedentary state and a very small 
 There was not a huge corrolation between sedentary minutes and calories burned:
 
 <img src="sedetary_vs_calories.png" width="450">
+
+We can see that Tuesday through Thursday are the days in which the most data is being collected:
+
+
