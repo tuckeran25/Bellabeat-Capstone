@@ -176,7 +176,7 @@ combined_data <- combined_data %>%
 combined_data$Weekday <- factor( combined_data$Weekday, levels = c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
 ```
 
-### Step 5: Summary of data
+### Step 5: Analyze
 
 5.1 Data summary:
 ```R
@@ -232,5 +232,7 @@ There was not a huge corrolation between sedentary minutes and calories burned:
 <img src="sedetary_vs_calories.png" width="450">
 
 We can see that Tuesday through Thursday are the days in which the most data is being collected:
+
+<img src="weekdays.png" width="450">
 
 
