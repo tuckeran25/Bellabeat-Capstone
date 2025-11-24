@@ -223,6 +223,8 @@ daily_activity %>%
  Max.   :143.00      Max.   :210.00    Max.   :4900  
 ```
 Users are speding a majority of their day in a sedentary state and a very small amount of their days in a fairly active or very active state:
+
+
 <img src="activity_chart.png" width="450">
 
 
