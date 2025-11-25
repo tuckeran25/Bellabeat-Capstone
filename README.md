@@ -227,7 +227,7 @@ Users are speding a majority of their day in a sedentary state and a very small 
 
 <img src="activity_chart.png" width="450">
 
-There was not a huge corrolation between sedentary minutes and calories burned:
+The American Heart Assosiation recommends 150 minutes of moderate or "fairly active" activity or 75 minutes of vigorous or "very active" activity per week. If users are averaging around 23 minutes of very active minutes a day, they should be getting enough activity throughout the week.It's also worth noting that there was not a huge corrolation between sedentary minutes and calories burned:
 
 <img src="sedetary_vs_calories.png" width="450">
 
